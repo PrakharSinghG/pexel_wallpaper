@@ -29,7 +29,6 @@ class _WallpaperState extends State<Wallpaper> {
       setState(() {
         images = result['photos'];
       });
-      print(images.length);
     });
   }
 
